@@ -1,4 +1,4 @@
-First codes in Java. Library maintenance program.
+First codes in Java. Library maintenance program application. 
 
 a. Books have author, title, year of publication, price, condition (on loan, free)
 
