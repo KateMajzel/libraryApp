@@ -25,6 +25,6 @@ viii. Which author has written the most books?
 
 
 
-### Part of the code, GUI and user chose number 5 (Checking books "in stock").
+### Part of the app, GUI, and a user chose number 5 (Checking books "in stock")
 
 ![library](https://user-images.githubusercontent.com/104032721/229352645-d67d8206-fa2a-432f-9a7c-f8efed01c2ab.jpg)
