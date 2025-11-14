@@ -1,30 +1,67 @@
-First codes in Java. Library maintenance program application. 
+# 📚 System Zarządzania Biblioteką
 
-a. Books have author, title, year of publication, price, condition (on loan, free)
+## Opis projektu
 
-b. Readers have a name, surname, and books they have borrowed
+Aplikacja desktopowa napisana w Javie do kompleksowego zarządzania zbiorami bibliotecznymi oraz obsługi czytelników. System umożliwia ewidencję książek, rejestrację użytkowników oraz monitoring wypożyczeń z intuicyjnym interfejsem graficznym (GUI).
 
-c. Provide the following options:
+## Funkcjonalności
 
-i. adding a book
+### Zarządzanie księgozbiorem
+- ➕ **Dodawanie książek** - rejestracja nowych pozycji w systemie
+- 📊 **Ewidencja szczegółów** - autor, tytuł, rok wydania, cena, status (wypożyczona/dostępna)
+- 📖 **Sprawdzanie dostępności** - lista książek aktualnie dostępnych w bibliotece
 
-ii. adding a reader
+### Zarządzanie czytelnikami
+- 👤 **Rejestracja czytelników** - dodawanie nowych użytkowników (imię, nazwisko)
+- 📚 **Historia wypożyczeń** - śledzenie książek wypożyczonych przez każdego czytelnika
 
-iii. borrowing of the book by the reader
+### Operacje wypożyczeń
+- 📤 **Wypożyczanie książek** - przypisanie książki do czytelnika
+- 📥 **Zwrot książek** - odnotowanie zwrotu i aktualizacja statusu
 
-iv. book return
+### Statystyki i raporty
+- 🏆 **Ranking czytelników** - identyfikacja użytkowników z największą liczbą wypożyczeń
+- 📅 **Analiza roczników** - rok, w którym opublikowano najwięcej książek w zbiorach
+- ✍️ **Statystyki autorów** - autor z największą liczbą pozycji w bibliotece
 
-v. Checking books "in stock"
+## Technologie
 
-vi. See who has the most books
+- **Język programowania:** Java
+- **Interface:** GUI (Graphical User Interface)
+- **Struktura:** Programowanie obiektowe (OOP)
 
-vii. In which year were the most books published?
+## Struktura danych
 
-viii. Which author has written the most books?
+### Klasa Book
+```
+- autor: String
+- tytuł: String
+- rok wydania: int
+- cena: double
+- status: enum (DOSTĘPNA, WYPOŻYCZONA)
+```
 
+### Klasa Reader
+```
+- imię: String
+- nazwisko: String
+- wypożyczone książki: List<Book>
+```
 
+## Interfejs użytkownika
 
+Aplikacja wyposażona w graficzny interfejs użytkownika umożliwiający łatwą nawigację poprzez system menu numerycznego.
 
-### Part of the app, GUI, and a user chose number 5 (Checking books "in stock")
+**Przykładowy ekran:** Opcja 5 - Wyświetlanie książek dostępnych w magazynie
+
+---
+
+## Autor
+
+Pierwszy projekt w języku Java - aplikacja edukacyjna demonstrująca podstawy programowania obiektowego i tworzenia aplikacji desktopowych.
+
+---
+
+*Projekt realizowany w ramach nauki programowania w Java*
 
 ![library](https://user-images.githubusercontent.com/104032721/229352645-d67d8206-fa2a-432f-9a7c-f8efed01c2ab.jpg)
