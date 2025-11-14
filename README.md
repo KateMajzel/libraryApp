@@ -56,11 +56,10 @@ Aplikacja wyposażona w graficzny interfejs użytkownika umożliwiający łatwą
 
 ---
 
-## Autor
+## Autor: Katarzyna Majzel-Pośpiech
 
 Pierwszy projekt w języku Java - aplikacja edukacyjna demonstrująca podstawy programowania obiektowego i tworzenia aplikacji desktopowych.
 
----
 
 *Projekt realizowany w ramach nauki programowania w Java*
 
