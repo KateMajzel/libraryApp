@@ -1,66 +1,68 @@
-# 📚 System Zarządzania Biblioteką
+# 📚 Library Management System
 
-## Opis projektu
+## Project description
 
-Aplikacja desktopowa napisana w Javie do kompleksowego zarządzania zbiorami bibliotecznymi oraz obsługi czytelników. System umożliwia ewidencję książek, rejestrację użytkowników oraz monitoring wypożyczeń z intuicyjnym interfejsem graficznym (GUI).
+A desktop application written in Java for comprehensive management of library collections and reader services. The system lets you catalog books, register users and track loans through an intuitive graphical user interface (GUI).
 
-## Funkcjonalności
+## Features
 
-### Zarządzanie księgozbiorem
-- ➕ **Dodawanie książek** - rejestracja nowych pozycji w systemie
-- 📊 **Ewidencja szczegółów** - autor, tytuł, rok wydania, cena, status (wypożyczona/dostępna)
-- 📖 **Sprawdzanie dostępności** - lista książek aktualnie dostępnych w bibliotece
+### Collection management
+- ➕ **Adding books** - registering new items in the system
+- 📊 **Detailed records** - author, title, publication year, price, status (borrowed/available)
+- 📖 **Availability check** - a list of books currently available in the library
 
-### Zarządzanie czytelnikami
-- 👤 **Rejestracja czytelników** - dodawanie nowych użytkowników (imię, nazwisko)
-- 📚 **Historia wypożyczeń** - śledzenie książek wypożyczonych przez każdego czytelnika
+### Reader management
+- 👤 **Reader registration** - adding new users (first name, last name)
+- 📚 **Borrowing history** - tracking the books borrowed by each reader
 
-### Operacje wypożyczeń
-- 📤 **Wypożyczanie książek** - przypisanie książki do czytelnika
-- 📥 **Zwrot książek** - odnotowanie zwrotu i aktualizacja statusu
+### Loan operations
+- 📤 **Borrowing books** - assigning a book to a reader
+- 📥 **Returning books** - recording the return and updating the book's status
 
-### Statystyki i raporty
-- 🏆 **Ranking czytelników** - identyfikacja użytkowników z największą liczbą wypożyczeń
-- 📅 **Analiza roczników** - rok, w którym opublikowano najwięcej książek w zbiorach
-- ✍️ **Statystyki autorów** - autor z największą liczbą pozycji w bibliotece
+### Statistics and reports
+- 🏆 **Reader ranking** - identifying the users with the most loans
+- 📅 **Publication year analysis** - the year in which the most books in the collection were published
+- ✍️ **Author statistics** - the author with the most titles in the library
 
-## Technologie
+## Technologies
 
-- **Język programowania:** Java
+- **Programming language:** Java
 - **Interface:** GUI (Graphical User Interface)
-- **Struktura:** Programowanie obiektowe (OOP)
+- **Paradigm:** Object-oriented programming (OOP)
 
-## Struktura danych
+## Data structure
 
-### Klasa Book
+### Book class
 ```
-- autor: String
-- tytuł: String
-- rok wydania: int
-- cena: double
-- status: enum (DOSTĘPNA, WYPOŻYCZONA)
-```
-
-### Klasa Reader
-```
-- imię: String
-- nazwisko: String
-- wypożyczone książki: List<Book>
+- author: String
+- title: String
+- publication year: int
+- price: double
+- status: enum (AVAILABLE, BORROWED)
 ```
 
-## Interfejs użytkownika
+### Reader class
+```
+- first name: String
+- last name: String
+- borrowed books: List<Book>
+```
 
-Aplikacja wyposażona w graficzny interfejs użytkownika umożliwiający łatwą nawigację poprzez system menu numerycznego.
+## User interface
 
-**Przykładowy ekran:** Opcja 5 - Wyświetlanie książek dostępnych w magazynie
+The application has a graphical user interface with easy navigation through a numbered menu system.
+
+**Sample screen:** Option 5 - Displaying books available in stock
 
 ---
 
-## Autor: Katarzyna Majzel-Pośpiech
+## Author: Katarzyna Majzel-Pośpiech
 
-Pierwszy projekt w języku Java - aplikacja edukacyjna demonstrująca podstawy programowania obiektowego i tworzenia aplikacji desktopowych.
+A first project in Java - an educational application demonstrating the fundamentals of object-oriented programming and desktop application development.
 
 
-*Projekt realizowany w ramach nauki programowania w Java*
+*Project completed as part of learning Java programming*
 
 ![library](https://user-images.githubusercontent.com/104032721/229352645-d67d8206-fa2a-432f-9a7c-f8efed01c2ab.jpg)
+
+
